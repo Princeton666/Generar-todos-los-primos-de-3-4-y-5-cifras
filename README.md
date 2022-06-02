@@ -5,6 +5,7 @@
 Integrantes:
 
 Fabricio Arian Messa Mandujano
+
 Royer Diosdado Carcausto Choquehuanca
 
 
