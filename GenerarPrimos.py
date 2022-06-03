@@ -3,8 +3,9 @@ def generar_primo(numero): #funcion para generar primos
     indice = 0 #el indice empezará en 0, y luego lo iremos aumentando 
     while lista[indice]**2 <= numero: #esto es para que no exceda el límite del número "x" y aparte es para romper el ciclo while
         for i in lista: #recorremos la lista
-            if i % lista[indice] == 0: #si cada número de toda la lista es divisible entre el índice entonces lo sacamos de la lista
-                lista.remove(i)
+            if i != lista[indice]:
+                if i % lista[indice] == 0: #si cada número de toda la lista es divisible entre el índice entonces lo sacamos de la lista
+                    lista.remove(i)
         indice += 1 #aumentamos el ínidce 
     return lista #retornamos la lista
 
